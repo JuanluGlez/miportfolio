@@ -1,0 +1,13 @@
+.text-animation {
+  overflow: hidden; /* Para ocultar el texto que se desborda */
+}
+
+/* Animación de entrada letra por letra */
+@keyframes fadeInText {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.text-animation {
+  animation: fadeInText 0.5s ease-in-out; /* Duración y tipo de animación */
+}

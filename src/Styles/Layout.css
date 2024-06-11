@@ -1,0 +1,38 @@
+.background_blended {
+  width: 100%;
+  height: 80px;
+  background-color: var(--main-accent-color);
+  mix-blend-mode: screen;
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  opacity: 1;
+
+}
+
+.menuModify {
+  padding-top: 33rem;
+  transition: ease all 0.3s;
+
+}
+
+/* .layout {
+  overflow: hidden;
+
+} */
+
+@media only screen and (min-width: 1024px) {
+
+  .background_blended {
+    position: fixed;
+
+  }
+
+  .menuModify {
+    padding-top: 0;
+    transition: ease all 0.3s;
+  
+  }
+
+}

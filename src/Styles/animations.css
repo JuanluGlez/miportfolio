@@ -1,0 +1,84 @@
+/* animations settings ================================= */
+
+@keyframes opacity_scale {
+  from {
+    opacity: .5;
+    scale: 95%;
+
+  }
+
+  to {
+    opacity: 1;
+    scale: 100%;
+
+  }
+
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+
+  }
+
+  to {
+    opacity: 1;
+
+  }
+
+}
+
+@keyframes grow {
+  from {
+    width: 0;
+
+  }
+
+  to {
+    width: 100%;
+
+  }
+  
+}
+
+@keyframes appear {
+  from {
+    margin-top: 4rem;
+  }
+
+  to {
+    margin-top: 0;
+
+  }
+  
+}
+
+/* animations assigments ================================= */
+
+.grow_animation,
+.grid-container::before, 
+.skills_table .item::after {
+  view-timeline-name: --skillsLine;
+  view-timeline-axis: block;
+
+  animation-timeline: --skillsLine;
+  animation-name: grow;
+
+  animation-range: entry 50% cover 70%;
+  animation-fill-mode: both;
+
+}
+
+.opacity_animation {
+
+view-timeline-name: --h2;
+view-timeline-axis: block;
+
+animation-timeline: --h2;
+animation-name: opacity;
+
+animation-range: entry 50% cover 80%;
+animation-fill-mode: both;
+
+}
+

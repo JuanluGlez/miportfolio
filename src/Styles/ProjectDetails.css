@@ -1,0 +1,148 @@
+.projectDetails_page {
+
+  & .project_intro {
+
+    margin-bottom: calc(var(--space-l-size) + 1rem);
+    
+    .principal_info {
+
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  
+      & h1 {
+        margin-bottom: var(--space-s-size);
+    
+      }
+
+    }
+  
+  }
+  
+  & .project_thumbnail {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+
+    & .bg_thumbnail {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 1;
+      background-color: var(--main-principal-color);
+
+    }
+
+    & video {
+      z-index: 2;
+      height: 100%;
+
+    }
+  
+  }
+  
+  & .project_credits {
+    width: 100%;
+    margin-top: calc(var(--space-m-size) + var(--space-s-size) + var(--space-m-size));
+  
+  }
+  
+  & .project_credits li {
+  
+    margin-bottom: var(--space-xs-size);
+    
+    & span:nth-child(odd) {
+      font-family: 'Manrope-Bold';
+      margin-right: 0.5rem;
+    }
+  
+  }
+
+  & .project_context {
+    margin-bottom: var(--space-xl-size);
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: var(--space-l-size);
+
+    & .context, .challenge {
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: var(--space-s-size);
+
+    }
+
+  }
+
+  & .project_highlights {
+    width: 100%;
+    height: auto;
+
+    & h3 {
+      margin-bottom: var(--space-xl-size);
+
+    }
+
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+  & .projectDetails_page {
+
+    & .project_intro {
+
+      margin-bottom: var(--space-xl-size);
+
+      display: flex;
+      flex-direction: row-reverse;
+    
+      .principal_info {
+        justify-content: flex-start;
+        width: 80%;
+
+        & h2 {
+          margin-left: calc( -41% - (var(--space-m-size)));
+          margin-top: -40rem;
+          width: 80%;
+  
+        }
+  
+      }
+    
+    }
+
+    & .project_credits {
+      width: 30%;
+      margin-right: var(--space-l-size);
+    
+    }
+
+    & .project_context {
+
+      & .context, .challenge {
+        display: flex;
+        flex-wrap: nowrap;
+        row-gap: var(--space-s-size);
+        justify-content: space-between;
+
+        & h4 {
+
+        }
+
+        & p {
+          width: 68.5%;
+
+        }
+  
+      }
+  
+    }
+
+  }
+
+}
+

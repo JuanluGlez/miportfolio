@@ -1,0 +1,312 @@
+
+.show_animation {
+  animation: show .8s ease-in;
+  
+}
+
+@keyframes show {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.page_index {
+
+	& .page_intro {
+
+    margin-bottom: var(--space-xl-size);
+
+		& .page_header {
+			
+			& h1 {
+				display: flex;
+				flex-wrap: wrap;
+				margin-bottom: var(--space-m-size);
+				width: 100%;
+				align-items: center;
+				justify-content: space-between;
+	
+			}
+
+		}
+
+	}
+
+  & .introduce_myself, .profile_section {
+    padding-bottom: var(--space-xl-size);
+
+   & .landing_paragraph {
+      max-width: 155rem;
+      margin: auto; 
+      
+      & p {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        text-indent: 0;
+
+      }
+  
+      & p:first-child { 
+        margin-bottom: var(--space-l-size); 
+        transition: reveal ease 1s forwards;
+      }
+
+      & span:first-child {
+        margin-left: 8%;
+
+      }
+      
+    }
+
+    & .word {
+      opacity: 0;
+      transition: ease all .5s;
+      margin-right: 1.3rem;
+      
+    }
+    
+    & .show {
+      opacity: 1;
+      transition: ease all .6s;
+    
+    }
+
+  }
+
+  & .introduce_myself p:nth-child(1) span:nth-child(5),
+    .introduce_myself p:nth-child(1) span:nth-child(8),
+    .introduce_myself p:nth-child(2) span:nth-child(6) {
+    
+    font-family: 'Manropre-Bold', sans-serif;
+    font-weight: 600;
+
+  }
+
+	.ocupation {
+		width: 100%;
+		text-align: right;
+
+	}
+		
+	& .self_portrait {
+		width: 100%;
+		height: calc(100vh - 45rem);
+		background-image: url('../Images/yo-banner-negro-movil.jpg');
+		background-size: cover;
+		background-position: center center;
+		
+	}
+
+  .projects_section {
+
+    & h2 {
+      padding-bottom: var(--space-xl-size);
+      display: flex;
+      justify-content: space-between;
+
+    }
+
+  }
+
+  .profile_section {
+
+    & h2 {
+      margin-bottom: var(--space-xl-size);
+      display: flex;
+
+    }
+
+    & .profile_description {
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 140rem;
+      margin: auto;
+     
+      & img {
+        width: 100%;
+        max-width: 70rem;
+        margin-bottom: var(--space-xl-size);
+
+      }
+
+    }
+
+  }
+
+  .skills_section {
+    margin-bottom: var(--space-xl-size);
+
+    & h4 {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: var(--space-l-size);
+
+    }
+
+    & h5 {
+      margin-bottom: var(--space-s-size);
+
+      @media screen and (max-width: 900px) {
+        text-align: center;
+      
+      }
+
+    }
+
+    & .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 columnas de tamaño igual */
+      grid-gap: 0; /* Espacio entre elementos */
+      width: calc(100% + var(--space-m-size) + var(--space-m-size)); /* Ancho de la cuadrícula */
+      margin-left: calc(var(--space-m-size) - var(--space-m-size) - var(--space-m-size));
+      margin-bottom: var(--space-l-size);
+      font-family: 'Manrope-Regular';
+      font-size: 4rem;
+      line-height: 5rem;
+      text-transform: uppercase; 
+      position: relative;
+
+      /* Cambiar a una sola columna en dispositivos móviles */
+       @media screen and (max-width: 900px) {
+        grid-template-columns: 1fr; 
+      
+      }
+
+      &::before {
+        content: "";
+        height: 1px;
+        background-color: var(--main-principal-color);
+        position: absolute;
+        left: 0;
+        top: 0;
+    
+      }
+  
+    }
+    
+    & .item {
+      padding: var(--space-s-size) var(--space-m-size);
+      text-align: center;
+      text-indent: 0 !important;
+      position: relative;
+
+      &::after {
+        content: "";
+        height: 1px;
+        background-color: var(--main-principal-color);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+      }
+
+    }
+
+    & .item:nth-child(3n+1) {
+      text-align: left;
+
+      @media screen and (max-width: 900px) {
+        text-align: center;
+      
+      }
+     
+    }
+
+    & .item:nth-child(3n) {
+      text-align: right;
+
+      @media screen and (max-width: 900px) {
+        text-align: center;
+      
+      }
+
+    }
+
+  }
+
+  .resourses_section {
+    margin-bottom: var(--space-xl-size);
+    display: flex;
+    justify-content: center;
+
+    & span {
+      font-size: 4rem;
+      font-family: 'Manrope-Regular', sans-serif;
+      text-transform: uppercase; 
+
+    }
+
+    & div {
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-s-size);
+      
+
+      & span {
+        text-indent: 0 !important;
+      
+      }
+
+    }
+     
+  }
+ 
+}
+ 
+@media only screen and (min-width: 580px) {
+
+  .page_index {
+
+    & .self_portrait {
+      width: 100%;
+      height: calc(100vh - 45rem);
+      background-image: url('../Images/yo-banner-negro.png');
+      background-size: cover;
+      background-position: center center;
+      
+    }
+
+  }
+
+ 
+	.page_index {
+		transition: ease all .5s;
+
+		& .ocupation {
+			width: auto;
+
+		}
+
+		.page_intro {
+			height: calc(100vh - 10rem - var(--space-s-size) - var(--space-m-size));
+
+		}
+
+		& .self_portrait {
+			transition: ease all .5s;
+			height: calc(100% - 15rem - var(--space-m-size))
+			
+		}
+
+	}
+ 
+}
+
+@media only screen and (min-width: 1366px) {
+
+	.page_index {
+		
+		& .self_portrait {
+			transition: ease all .5s;
+			height: calc(100% - 22rem - var(--space-m-size)) !important;
+			
+		}
+
+	}
+
+}

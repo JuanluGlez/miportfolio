@@ -1,0 +1,134 @@
+[
+  {
+    "ID": "proyect01",
+    "url": "smartbooqs.html",
+    "gridType": "left_aligned",
+    "name": "SMART\nBOOQS",
+    "namelink": "SMARTBOOQS",
+    "bgImage": "/projectBG01.png",
+    "Animation": "/Smartbooqs_01_presentation.mp4",
+    "AditionalText": "LIBROS digitales asistidos por inteligencia artificial",
+
+    "title": "SMARTBOOQS",
+    "poster": "/Smartbooqs_01_presentation.mp4",
+    "posterBG": "/projectBG01_Landscape.png",
+    "posterAlt": "alt de la imagen",
+    "subtitle": "Libros digitales asistidos POR I.A",
+    "date": "junio 2023 - septiembre 2024",
+    "client": "BQ Educación",
+    "roles": "Diseñador UX & UI",
+    "siteName": "smartbooqs.cc",
+    "siteUrl": "https://smartbooqs.cc/",
+    "context": "<i>Smartbooqs</i> es un proyecto innovador impulsado por <b>BQ Educación</b>, diseñado para transformar la forma en que se accede y consume contenido educativo. BQ Educación busca convertirse en una editorial líder, creando libros digitales personalizados y ofreciendo su plataforma a grandes editoriales para distribuir contenidos educativos. Este enfoque facilita a las editoriales ofrecer <b>libros de texto completos que cubren el currículo obligatorio</b> establecido por el Ministerio de Educación. <b>La personalización del aprendizaje, potenciada por la IA</b>, adapta el contenido a las necesidades individuales de cada estudiante. Smartbooqs se posiciona como una solución integral que promueve la accesibilidad y la colaboración entre instituciones educativas y editoriales, allanando el camino hacia una educación más dinámica y efectiva.",
+    "challenge": "Me contrataron como especialista en UX/UI para liderar el desarrollo del proyecto en colaboración con distintos stakeholders. Como parte del equipo de UX/UI, me encargué de <b>diseñar todos los módulos y componentes</b> asociados al contenido que los usuarios interactuarían. Mi tarea principal fue <b>definir todos los flujos de usuario, definir las microinteracciones, diseñar las pantallas y crear la documentación necesaria</b> para guiar a los desarrolladores en la implementación. BQ Educación tenía una visión clara: querían una plataforma educativa que destacara por su dinamismo e interactividad, ofreciendo una experiencia superior a la de sus competidores. Para lograrlo, era esencial que el contenido se generara de manera eficiente, aprovechando la asistencia de la inteligencia artificial para la creación rápida de textos, imágenes y actividades interactivas. Además, se buscaba que la plataforma permitiera la creación de conjuntos de páginas temáticas, facilitando así el acceso a contenidos específicos.",
+    "highlights": [
+      {
+         "title": "",
+        "paragraph": "",
+        "video": ""
+      },
+      {
+        "title": "",
+        "paragraph": "",
+        "video":  "",
+        "paragraph2": "",
+        "video2":  ""
+      },
+      {
+        "title": "",
+        "paragraph": "",
+        "video":  "",
+        "paragraph2": "",
+        "video2":  ""
+      }
+    ]
+  },
+  
+  {
+    "ID": "proyect03",
+    "url": "bitbloqApps.html",
+    "gridType": "right_aligned",
+    "name": "Bitbloq Apps",
+    "namelink": "Bitbloq Apps",
+    "bgImage": "/projectBG03.png",
+    "Animation": "/Apps_01_presentation.mp4",
+    "AditionalText": "Diseñar y programar mediante bloques una app para dispositivos móviles",
+    
+    "title": "Bitbloq Apps",
+    "poster": "/Apps_01_presentation.mp4",
+    "posterBG": "",
+    "posterAlt": "",
+    "subtitle": "Crear una APP para dispositivos móviles",
+    "date": "febrero 2022 - diciembre 2022",
+    "client": "BQ Educación",
+    "roles": "Diseñador UX & UI",
+    "siteName": "bitbloq apps",
+    "siteUrl": "https://bitbloq.cc/app/edit-document/local/apps/new",
+    "context": "<i>Bitbloq Apps</i> es una plataforma web interactiva que ofrece tanto una opción gratuita como una versión premium dirigida a docentes. Esta herramienta representa la quinta de las 6 herramientas que conforman Bitbloq, cada una enfocada en satisfacer diferentes áreas de la tecnología. Bitbloq Apps está diseñada específicamente para el <b>diseño y desarrollo de aplicaciones móviles</b>. A través de una interfaz simplificada e intuitiva, los usuarios pueden <b>diseñar pantallas personalizadas con una variedad de componentes y aprovechar los sensores del dispositivo móvil</b>. La herramienta permite programar la interactividad de las aplicaciones de forma sencilla. Además, Bitbloq Apps es compatible con diversas <b>placas de robótica</b>, como Arduino, Make Code, o las placas ZumCore de fabricación propia de BQ. Los usuarios también tienen la opción de <b>previsualizar sus aplicaciones en un simulador online</b> y probarlas en sus dispositivos móviles instalando una app llamada <i>Bitbloq Pocket</i> através de la que pueden hacer <i>mirroring</i>, así como generar un paquete instalable para dispositivos Android.",
+    "challenge": "Como diseñador UX/UI principal, mi cometido fue <b>concebir una herramienta que integrara un espacio de trabajo versátil e intuitivo</b>. Esto implicaba no solo una maquetación fluida de los componentes, sino también la implementación de un sistema de programación por bloques ordenado y usable, que permitiera a los usuarios generar un código limpio y organizado. El objetivo principal era <b>superar a la competencia, tomando como referencia sus puntos fuertes y aprovechando sus puntos débiles para destacar como una solución superior en el mercado</b>. En este sentido, la estética, la versatilidad y la organización se convirtieron en los pilares fundamentales para el éxito del producto. Se buscaba no solo ofrecer una herramienta funcional, sino también una experiencia de usuario que resultara atractiva y satisfactoria en todos los aspectos. Cada detalle, desde el diseño de la interfaz hasta la disposición de las funciones, fue cuidadosamente planificado para garantizar la máxima eficiencia y usabilidad. El reconocimiento otorgado a Bitbloq Apps con el<b> premio a las 100 mejores ideas del 2023</b> por El Mundo es un claro testimonio del impacto positivo que ha tenido en el campo de la tecnología educativa.",
+    "highlights": [
+      {
+        "title": "Adaptabilidad al Desing System de Bitbloq",
+        "paragraph": "En <i>Bitbloq Apps</i>, adaptarnos al <b>sistema de diseño</b> preestablecido de Bitbloq fue un proceso fundamental. Bitbloq, como plataforma consolidada, ya contaba con un <b>lenguaje visual bien definido y una serie de componentes establecidos en uso</b>. La plataforma se divide en dos partes: una parte administrativa para la gestión de documentos y aulas, y otra división de herramientas prácticas, accesibles sin costo ni registro previo. La sección de herramientas es una de las más antiguas de Bitbloq, con una estética y estructura de interfaz muy específicas. Al igual que <i>Adobe</i>, la consistencia en la disposición de herramientas y operaciones es esencial para garantizar una experiencia de usuario fluida. Por lo tanto, nuestro desafío principal fue <b>integrar y priorizar soluciones que ya se aplicaban en otras herramientas de Bitbloq</b>, incluso antes de que <i>Apps</i> estuviera en proceso de planificación. Esto se hizo con el objetivo de <b>minimizar la curva de aprendizaje</b> para los usuarios habituales de Bitbloq. Para abordar este reto, realizamos<b> pruebas A/B</b> con diversos stakeholders. Esto nos permitió asegurarnos de encontrar un equilibrio entre una interfaz usable y reconocible en comparación con las otras herramientas existentes en Bitbloq. El objetivo era ofrecer una experiencia coherente y familiar para los usuarios, manteniendo al mismo tiempo la identidad visual y funcionalidad distintiva de Bitbloq.",
+        "video": "/Apps_02_design_system.mp4"
+      },
+      {
+        "title": "Novedoso área de programación por bloques. Más ordenado, más eficiente",
+        "paragraph": "Uno de los principales puntos débiles que encontramos en la competencia era la <b>organización y estructuración de la programación</b>, especialmente al corregir las entregas de los alumnos. En un área libre de colocación, la programación tendía a ser <b>caótica y desorganizada</b>. Para solucionar este problema, diseñamos un sistema organizativo que obliga al usuario a estructurar su programación en <b>filas y columnas</b>. </br></br>En nuestro sistema, las columnas se pueden renombrar y la programación se distribuye por pantallas, lo que facilita la navegación y comprensión del código. Además, las funciones y variables están organizadas en pestañas globales, permitiendo una visión clara y accesible de todos los elementos del proyecto. Esta estructura asegura que incluso las programaciones más extensas y complejas se mantengan <b>bien organizadas</b>, evitando la pérdida de información. </br></br>Este enfoque no solo beneficia a los alumnos, que pueden seguir una lógica clara en su programación, sino también a los docentes, que encuentran más fácil y eficiente la tarea de corregir y evaluar los trabajos. Con esta matriz estructurada, logramos una organización que mejora significativamente la experiencia tanto de los estudiantes como de los profesores.",
+        "video": "/Apps_03_programming.mp4"
+      },
+      {
+        "title": "Colocar los componentes de forma libre",
+        "paragraph": "Otro de los principales pain points de la competencia era que basaban el comportamiento del <b>flujo de página</b> y el <i>box model</i> en sistemas idénticos a los que se utilizan en el diseño de aplicaciones reales. Este enfoque resultaba confuso para nuestros usuarios, que en su mayoría eran <b>estudiantes de instituto</b> que no entendían por qué los elementos se comportaban de esa manera y deseaban más libertad a la hora de estructurar visualmente los componentes en el espacio.</br></br> Para abordar esta cuestión, ideamos un sistema de <b>colocación libre de elementos</b>, inspirado en aplicaciones de Adobe como Illustrator o InDesign. En lugar de obligar a los usuarios a seguir estrictamente los principios del flujo de página, permitimos que los elementos se posicionen <b>libremente</b>, brindando mayor flexibilidad y creatividad en el diseño.</br></br> Con este enfoque, los usuarios pueden centrarse más en la funcionalidad de la aplicación, dedicando menos tiempo a la distribución del espacio y obteniendo mejores resultados estéticos. Esto no solo facilita el proceso de diseño para los estudiantes, sino que también hace que la experiencia sea más intuitiva y agradable, alineándose mejor con las expectativas y habilidades de nuestros usuarios.",
+        "video": "/Apps_04_designing.mp4"
+      },
+      {
+        "title": "Previsualización en vivo del resultado",
+        "paragraph": "Otro pain point de la competencia era la <b>previsualización de las aplicaciones para probarlas en vivo</b>. Generalmente, las herramientas que ofrecían esta funcionalidad requerían que los usuarios <b>descargaran e instalaran plugins</b> para emular el comportamiento de la app en sus ordenadores. Consideramos esta debilidad una oportunidad para Bitbloq Apps, por lo que ideamos un <b>emulador integrado</b> en la propia web para previsualizar rápidamente el funcionamiento de la aplicación.</br></br> Además, desarrollamos una aplicación que permite hacer <i>mirroring</i> con los documentos de Bitbloq Apps. Esto significa que los usuarios pueden ver y probar sus aplicaciones en <b>tiempo real</b> sin necesidad de instalar la aplicación diseñada. Esta funcionalidad no solo simplifica el proceso de desarrollo y prueba, sino que también mejora significativamente la experiencia del usuario, permitiendo una evaluación más rápida y fluida de las aplicaciones creadas.</br></br> Con estas innovaciones, eliminamos las barreras asociadas a la instalación de software adicional y proporcionamos una solución más eficiente y accesible para nuestros usuarios. Esto no solo mejora la usabilidad de Bitbloq Apps, sino que también hace que la plataforma sea más atractiva en comparación con las opciones existentes en el mercado.",
+        "video": ""
+      }
+    ]
+  },  
+  {
+    "ID": "proyect04",
+    "url": "bmaker.html",
+    "gridType": "left_aligned",
+    "name": "bMaker JR & ADV",
+    "namelink": "bMaker JR & ADV",
+    "bgImage": "/projectBG04.png",
+    "Animation": "/bMaker_01_Alumno_ Ejemplo_de_sesion.mp4",
+    "AditionalText": "plataforma de aprendizaje interactivo para alumnos de 6 a 15 años",
+    
+    "title": "bMaker JR & ADV",
+    "poster": "/bMaker_01_Alumno_ Ejemplo_de_sesion.mp4",
+    "posterBG": "/projectBG04_landscape.png",
+    "posterAlt": "",
+    "subtitle": "Crear una APP para dispositivos móviles",
+    "date": "agosto 2019 - julio 2021",
+    "client": "BQ Educación & Mcmillan",
+    "roles": "Diseñador UX & UI",
+    "siteName": "bMaker",
+    "siteUrl": "https://bmaker.es/school/",
+    "context": "<b>bMaker</b> es una plataforma web diseñada para la creación de aulas virtuales, la gestión de usuarios y la impartición de contenido curricular centrado en materias como tecnología, pensamiento computacional y robótica. Este entorno digital permite a los docentes, como responsables del aula, administrar el acceso de los alumnos, evaluar su progreso, otorgar calificaciones y reconocer el rendimiento efectivo de los estudiantes a lo largo del curso. El contenido ofrecido en bMaker se compone de <i>píldoras formativas</i>, sesiones de aprendizaje que abordan la teoría mediante diversos formatos interactivos. Estas píldoras están diseñadas para presentar conceptos de manera dinámica y accesible, facilitando así la comprensión de los temas. Además, se complementan con actividades interactivas que buscan reforzar el conocimiento adquirido y promover la participación activa del estudiante en su proceso de aprendizaje. En resumen, bMaker proporciona una plataforma integral que no solo facilita la enseñanza y el aprendizaje de materias tecnológicas, sino que también fomenta la interacción entre docentes y alumnos, promoviendo así un ambiente educativo dinámico y colaborativo.",
+    "challenge": "Como diseñador UX/UI principal, mi tarea fue analizar los dos primeros años de vida del producto. Esto implicó revisar detalladamente todo el feedback, tanto cuantitativo como cualitativo para identificar los puntos débiles de la interfaz y la definición del producto, mientras se potenciaban sus puntos fuertes. Además, debido a varios cambios tecnológicos, se decidió reconstruir el proyecto desde cero, lo que proporcionó la oportunidad de replantear el estilo visual sin perder de vista la identidad corporativa. Se creó un sólido sistema de diseño que antes carecía de coherencia, y se implementaron nuevas dinámicas de equipo, gestión e iteración del producto. A pesar de estos cambios, nos enfrentamos a varios requisitos originales del producto que no podíamos obviar. Estos requisitos plantearon un desafío directo al flujo del usuario en la plataforma, lo que significó que debíamos encontrar soluciones creativas para integrar estas demandas sin comprometer la experiencia del usuario. En resumen, el reto consistió en equilibrar la innovación con la continuidad, asegurando que el rediseño cumpliera con las expectativas del usuario mientras se adaptaba a las nuevas tecnologías y necesidades del mercado.",
+    "highlights": [
+      {
+        "title": "Tres tipos de usuario: docente, alumno y grupo",
+        "paragraph": "Uno de los principales desafíos fue diseñar una plataforma con múltiples flujos de usuario: el <b>docente</b>, que actúa como administrador del contenido y analista de resultados; el <b>alumno</b>, que sigue un flujo guiado por el docente y tiene acceso a una administración básica de su progreso; y el usuario <b>grupo</b>, concebido para albergar conjuntos de alumnos que comparten un dispositivo. La meta era crear un producto en el que <b>los tres tipos de usuario coexistieran de manera armoniosa</b>, teniendo en cuenta los requisitos previos del producto.</br></br> Para abordar este desafío, <b>analizamos el contexto del aula</b>, observando cómo se utilizaba la plataforma y cómo se organizaban las clases. Los escenarios variaban ampliamente, desde centros equipados con aulas tecnológicas hasta otros en los que los dispositivos se compartían en condiciones cuestionables, e incluso algunos que solo contaban con un proyector. Propusimos diferentes modalidades de impartición de clases, como sesiones cooperativas a nivel de aula, usuarios combinados para grupos de alumnos y modalidades más tradicionales para usuarios individuales. </br></br> Para poner a prueba estas funcionalidades, realizamos <b>pruebas de usuario</b> y <b>focus groups</b>. Esto nos permitió validar y ajustar el diseño de la plataforma para asegurar una experiencia fluida y efectiva para todos los tipos de usuario en diferentes contextos educativos.",
+        "video":  "/bMaker_02_Alumno_ Grupos.mp4"
+      },
+      {
+        "title": "Proteger los derechos de autor del contenido",
+        "paragraph": "Desde el inicio, uno de los principales desafíos de bMaker fue <b>evitar el pirateo de los contenidos</b>, protegiendo así los derechos de autor y garantizando la viabilidad del modelo de negocio basado en la venta de licencias de uso. El cliente requería un sistema que <b>impidiera el acceso no autorizado a los materiales educativos</b>. </br><br>La venta de licencias fue un <b>requisito impuesto por el cliente</b> que ya estaba en vigor desde años anteriores. Cada usuario docente disponía de una licencia personal única e intransferible. Al acceder a la plataforma, se requería el uso de esta licencia para desbloquear los contenidos correspondientes. El objetivo principal era <b>evitar que los centros educativos compartieran licencias</b> y distribuyeran el contenido entre múltiples clases, lo que comprometería el modelo de negocio y los derechos de autor.</br></br>Al analizar las prácticas de la competencia, observamos que muchas plataformas utilizaban un <b>sistema lineal de progreso</b>, donde el avance quedaba registrado en el perfil del usuario y el contenido completado estaba disponible solo para consulta. Nos inspiramos en este enfoque, adaptándolo para que el docente pudiera marcar el ritmo de la clase, en contraposición a la competencia donde cada alumno avanzaba a su propio ritmo. Esta adaptación no solo garantizaba la seguridad de los contenidos, sino que también permitía una mayor flexibilidad en el proceso de aprendizaje, alineándose con las necesidades y dinámicas del entorno educativo. </br> </br> Incluimos prácticas más rudimentarias, como <b>evitar la selección de texto con el ratón</b> o la copia de contenido. Sin embargo, reconocemos que estas medidas <b>podrían afectar negativamente a la experiencia del usuario</b>, ya que cualquier tipo de restricción puede dificultar el acceso al contenido. Por ello, nos esforzamos por equilibrar estas medidas con un enfoque centrado en la accesibilidad del contenido. Empleamos técnicas como la <b>codificación visual del color</b> y la <b>estructura semántica del código</b> para garantizar que el contenido sea accesible para todos los usuarios, independientemente de las limitaciones impuestas por las medidas de seguridad.",
+        "video":  "/bMaker_03.1_Docente_ Derechos.mp4",
+        "video2": "/bMaker_03.2_Docente_ Derechos.mp4"
+      },
+      {
+        "title": "Gamificar la plataforma para incentivar la motivación",
+        "paragraph": "Una de las novedades de esta nueva versión de bMaker fue la implementación de un sistema de gamificación diseñado para <b>motivar y recompensar al alumnado por su buen desempeño</b>. bMaker se segmentó en dos productos distintos: <i>bMaker Jr</i>, dirigido a alumnos de entre 6 y 8 años, con un lenguaje más amigable e infantil; y <i>bMaker Adv</i>, con un enfoque más juvenil y avanzado. </br></br> Para bMaker Jr, ideamos una serie de <b>mascotas</b> llamada <i>beemes</i>, cada una asociada a un curso educativo específico. Los alumnos acumulaban puntos a lo largo del curso, desbloqueando cosméticos que les permitían <b>personalizar la apariencia del beeme de su clase</b>. Por otro lado, para los usuarios de <i>bMaker Adv</i>, propusimos un sistema de logros inspirado en las consolas de videojuegos, junto con un <b>sistema de medallas</b> que otorgaba al usuario un rango de <i>maker</i>. </br></br> Estas innovaciones resultaron en una mejora considerable tanto en los resultados objetivos como en la percepción subjetiva del producto. La implementación del sistema de gamificación contribuyó a aumentar la participación y el compromiso de los usuarios, añadiendo un elemento lúdico y motivador a la experiencia de aprendizaje.",
+        "video":  "/bMaker_04.1_Alumno_Logro.mp4",
+        "video2": "/bMaker_04.2_Alumno_Logro.mp4"
+      }
+    ]
+  }
+]

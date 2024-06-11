@@ -1,0 +1,19 @@
+ .Footer {
+  width: 100%;
+  height: 14rem;
+  border-top: 1px solid var(--main-principal-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: var(--space-m-size);
+    font-size: 2rem;
+    font-family: 'Manrope-Regular', sans-serif;
+
+  }
+
+ }

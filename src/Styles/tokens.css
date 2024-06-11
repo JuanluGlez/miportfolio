@@ -1,0 +1,369 @@
+/* ======================================================================== Colors */
+
+:root {
+	--main-principal-color: #212624;
+	/* --main-accent-color: #60EB6A; */
+	--main-accent-color: #2AFE3F;
+}
+
+/* ======================================================================== Typo */
+    
+	@font-face {
+		font-family: 'Manrope-Extrabold';
+		src: url('../Fonts/Manrope/Manrope-ExtraBold.ttf');
+			
+	}
+
+	@font-face {
+		font-family: 'Manrope-Bold';
+		src: url('../Fonts/Manrope/Manrope-Bold.ttf');
+			
+	}
+
+	@font-face {
+		font-family: 'Manrope-Semibold';
+		src: url('../Fonts/Manrope/Manrope-SemiBold.ttf');
+			
+	}
+
+	@font-face {
+		font-family: 'Manrope-Medium';
+		src: url('../Fonts/Manrope/Manrope-Medium.ttf');
+			
+	}
+
+	@font-face {
+		font-family: 'Manrope-Regular';
+		src: url('../Fonts/Manrope/Manrope-Regular.ttf');
+			
+	}
+
+	@font-face {
+		font-family: 'Manrope-Light';
+		src: url('../Fonts/Manrope/Manrope-Light.ttf');
+			
+	}
+
+	@font-face {
+		font-family: 'Manrope-Extralight';
+		src: url('../Fonts/Manrope/Manrope-ExtraLight.ttf');
+			
+	}
+
+
+	:root {
+		font-size: 8px;
+		
+	}
+
+	h1, h2, h3, h4, h5, .notes { 
+		text-transform: uppercase; 
+		padding: 0;
+		margin: 0;
+	
+	}
+
+  b, strong {
+    font-family: 'Manrope-Bold';
+
+  }
+
+  .page_index {
+
+    & h1 {
+      font-family: 'Manrope-Semibold', sans-serif;
+      font-size: 11rem;
+      line-height: 11rem;
+  
+    } 
+  
+    & h2 {
+      font-family: 'Manrope-Semibold', sans-serif;
+      font-size: 7rem;
+      line-height: 7rem;
+  
+    } 
+  
+    & h3 {
+      font-family: 'Manrope-Extrabold', sans-serif;
+      font-size: 12rem;
+      line-height: 12rem;
+  
+    } 
+  
+    & h4 {
+      font-family: 'Manrope-Bold', sans-serif;
+      font-size: 4rem;
+      line-height: 4rem;
+  
+    } 
+  
+    & h5 {
+      font-family: 'Manrope-Bold', sans-serif;
+      font-size: 3rem;
+      line-height: 3rem;
+  
+    }
+  
+    & b {
+      font-family: 'Manrope-Bold', sans-serif;
+  
+    }
+  
+    & p {
+      font-family: 'Manrope-Medium', sans-serif;
+      font-size: 4rem;
+      line-height: 5rem;
+      text-indent: 8%;
+      text-transform: uppercase;
+      padding: 0;
+      margin: 0;
+  
+    }
+
+  }
+
+	.notes {
+		font-family: 'Manrope-Medium', sans-serif;
+		font-size: 2.5rem;
+		line-height: 3.5rem;
+		padding: 0;
+		margin: 0;
+
+	}
+
+  .projectDetails_page {
+
+    & h1 {
+      font-size: 6rem;
+      line-height: 6rem;
+      font-family: 'Manrope-Semibold', sans-serif;
+  
+    }
+  
+    & h2 {
+      font-size: 10rem;
+      line-height: 10rem;
+      font-family: 'Manrope-Extralight', sans-serif;
+  
+    }
+
+    & h3 {
+      font-size: 5rem;
+      line-height: 5rem;
+      font-family: 'Manrope-Medium', sans-serif;
+
+    }
+
+    & h4 {
+      font-size: 3rem;
+      line-height: 4rem;
+      font-family: 'Manrope-Bold', sans-serif;
+
+    }
+
+    & p {
+      font-family: 'Manrope-Regular', sans-serif;
+      font-size: 3rem;
+      line-height: 5rem;
+      text-indent: 8%;
+      padding: 0;
+      margin: 0;
+
+    }
+
+  }
+
+	@media only screen and (min-width: 1024px) {
+		
+    .page_index {
+
+      & h1 {
+        font-size: 15rem;
+        line-height: 15rem;
+    
+      } 
+    
+      & h2 {
+        font-size: 10rem;
+        line-height: 10rem;
+    
+      } 
+    
+      & h3 {
+        font-size: 17rem;
+        line-height: 17rem;
+    
+      } 
+    
+      & h4 {
+        font-size: 5rem;
+        line-height: 5rem;
+    
+      } 
+    
+      & p {
+        font-size: 4rem;
+        line-height: 5rem;
+    
+      }
+
+    }
+
+    .projectDetails_page {
+
+      & h1 {
+        font-size: 8rem;
+        line-height: 8rem;
+    
+      }
+    
+      & h2 {
+        font-size: 13rem;
+        line-height: 13rem;
+    
+      }
+  
+      & h3 {
+        font-size: 7rem;
+        line-height: 7rem;
+  
+      }
+
+      & h4 {
+        font-size: 3rem;
+        line-height: 4rem;
+  
+      }
+  
+      & p {
+        font-size: 3rem;
+        line-height: 5rem;
+  
+      }
+  
+    }
+
+	}
+
+	@media only screen and (min-width: 1364px) {
+		
+    .page_index {
+
+      & h1 {
+        font-size: 22rem;
+        line-height: 22rem;
+    
+      } 
+    
+      & h2 {
+        font-size: 15rem;
+        line-height: 15rem;
+    
+      } 
+    
+      & h3 {
+        font-size: 13.2vw;
+        line-height: 1;
+    
+      } 
+    
+      & h4 {
+        font-size: 8rem;
+        line-height: 8rem;
+    
+      } 
+    
+      & p {
+        font-size: 5rem;
+        line-height: 6rem;
+    
+      }		
+
+    }
+
+    .projectDetails_page {
+
+      & h1 {
+        font-size: 12rem;
+        line-height: 12rem;
+    
+      }
+    
+      & h2 {
+        font-size: 20rem;
+        line-height: 20rem;
+    
+      }
+  
+      & h3 {
+        font-size: 8rem;
+        line-height: 8rem;
+  
+      }
+  
+    }
+
+	}
+
+/* ======================================================================== Spaces */
+
+
+  :root {
+    --space-xs-size: 1rem;
+    --space-s-size: 3rem;
+    --space-m-size: 3rem;
+    --space-l-size: 8rem;
+    --space-xl-size: 15rem;
+    
+  }
+
+	@media only screen and (min-width: 1024px) {
+
+		:root {
+			--space-xs-size: 1rem;
+			--space-s-size: 3rem;
+			--space-m-size: 5rem;
+			--space-l-size: 8rem;
+			--space-xl-size: 15rem;
+			
+		}
+
+	}
+
+	@media only screen and (min-width: 1364px) {
+
+		:root {
+			--space-xs-size: 1rem;
+			--space-s-size: 4rem;
+			--space-m-size: 7rem;
+			--space-l-size: 10rem;
+			--space-xl-size: 30rem;
+			
+		}
+
+	}
+
+	@media only screen and (min-width: 1800px) {
+
+		:root {
+			--space-xs-size: 3rem;
+			--space-s-size: 6rem;
+			--space-m-size: 9rem;
+			--space-l-size: 12rem;
+			--space-xl-size: 40rem;
+			
+		}
+
+	}
+
+/* ======================================================================== Animations */
+
+.line {
+  opacity: 0; /* Inicialmente, las líneas estarán ocultas */
+  transition: opacity 5s ease; /* Transición suave de opacidad */
+}
+
+.reveal {
+  opacity: 1; /* Cuando la clase reveal se agrega, la línea se volverá visible */
+}

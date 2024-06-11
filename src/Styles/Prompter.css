@@ -1,0 +1,30 @@
+.text_container {
+  overflow: hidden;
+  height: 7rem;
+  margin-left: calc(var(--space-m-size) - (var(--space-m-size) * 2));
+  margin-right: calc(var(--space-m-size) - (var(--space-m-size) * 2));
+  white-space: nowrap; /* Hace que todos los clones aparezcan en la misma línea */
+  
+  & span {
+    position: relative;
+    word-spacing: .3em;
+
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+  .text_container {
+    height: 11rem;
+
+  }
+
+}
+
+@media only screen and (min-width: 1366px) {
+  .text_container {
+    height: 14rem;
+
+  }
+  
+}
